@@ -8,8 +8,8 @@
 Increments your Unity Build version number, every build or manually via MenuItem button.
 <br/><br/>
 Version 1.0  Credits:
-JamesDev for original script inspiration<br/>
-&& JesusLuvsYooh StephenAllenGames.co.uk for auto build feature and editing.<br/>
+[![JamesDev](https://github.com/James-Frowen) for original script inspiration<br/>
+&& [![JesusLuvsYooh](https://github.com/JesusLuvsYooh) StephenAllenGames.co.uk for auto build feature and editing.<br/>
 <br/><br/>
 This file must be in an "Editor" folder (Unity/Assts/Editor) for example.<br/>
 Set autoIncreamentBuildVersion to false, to disable auto version changing<br/>
