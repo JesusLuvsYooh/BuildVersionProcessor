@@ -13,7 +13,7 @@ Version 1.0  Credits:
 <br/>
 && [JesusLuvsYooh](https://github.com/JesusLuvsYooh) StephenAllenGames.co.uk for auto build feature and editing.
 <br/><br/>
-This file must be in an "Editor" folder (Unity/Assts/Editor) for example.
+This file must be in an "Editor" folder (Unity/Assets/Editor) for example.
 <br/>
 Set autoIncreamentBuildVersion to false, to disable auto version changing.
 <br/>
