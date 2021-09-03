@@ -7,11 +7,13 @@
 # BuildVersionProcessor
 Increments your Unity Build version number, every build or manually via MenuItem button.
 <br/><br/>
-Version 1.0  Credits:
+Version 1.1  Credits:
 <br/>
 [JamesDev](https://github.com/James-Frowen) for original script inspiration
 <br/>
 && [JesusLuvsYooh](https://github.com/JesusLuvsYooh) StephenAllenGames.co.uk for auto build feature and editing.
+<br/>
+&& Nick for beating me to a fix
 <br/><br/>
 This file must be in an "Editor" folder (Unity/Assets/Editor) for example.
 <br/>
