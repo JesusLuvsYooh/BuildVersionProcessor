@@ -10,6 +10,8 @@
 
 // Version 1.1:
 // Fixed where matching numbers like 6.0.6 would go to 7.0.7 (should have been 6.0.7)
+// Version 1.2:
+// random error  string.Join('.'  now has to be  string.Join("."  ?
 
 using UnityEditor;
 using UnityEditor.Build;
@@ -44,7 +46,7 @@ class BuildVersionProcessor : IPreprocessBuildWithReport
             int versionIncremented = int.Parse(versionParts[versionParts.Length - 1]);
             versionIncremented += 1;
             versionParts[versionParts.Length - 1] = versionIncremented.ToString();
-            PlayerSettings.bundleVersion = string.Join('.', versionParts);
+            PlayerSettings.bundleVersion = string.Join(".", versionParts);
 
             Debug.Log("Version:  " + versionCurrent + "  increased to:  " + PlayerSettings.bundleVersion);
         }
